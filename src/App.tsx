@@ -148,7 +148,7 @@ function App() {
                   [view projects]
                 </a>
                 <a
-                  href="/cv.pdf"
+                  href="https://mattia-giovannini.github.io/CV/CV_EN.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="border border-[var(--amber)] px-4 py-2.5 font-semibold text-[var(--amber)] transition hover:bg-[var(--amber)] hover:text-[var(--bg)]"
