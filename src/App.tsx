@@ -33,7 +33,7 @@ const projects = [
     description:
       'Personal lab for Linux services, rootless containers, reverse proxies and local-first AI tooling.',
     tags: ['linux', 'podman', 'networking', 'automation'],
-    href: null,
+    href: 'https://mattia-giovannini.github.io/homelab/',
   },
   {
     path: 'portfolio-cv/',
