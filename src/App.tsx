@@ -58,6 +58,7 @@ const timeline = [
     place: 'University of Bologna · Final grade 94/110',
     detail:
       'Thesis: Autism Spectrum Disorder Detection via Eye Tracking Data using Machine Learning.',
+    link: { label: 'read the thesis (PDF)', href: 'https://frigori.github.io/latex-thesis/tesi.pdf' },
   },
   {
     tag: '[ERASMUS]',
@@ -225,6 +226,16 @@ function App() {
                     <h3 className="text-base text-[var(--ink)]">{item.title}</h3>
                     <p className="mt-0.5 text-xs text-[var(--dim)]">{item.place}</p>
                     <p className="mt-2 leading-6 text-[var(--sub)]">{item.detail}</p>
+                    {item.link && (
+                      <a
+                        href={item.link.href}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="mt-2 inline-block text-xs text-[var(--amber)] underline decoration-[var(--line)] underline-offset-2 transition hover:decoration-[var(--amber)]"
+                      >
+                        {item.link.label} ↗
+                      </a>
+                    )}
                   </div>
                 </div>
               ))}
