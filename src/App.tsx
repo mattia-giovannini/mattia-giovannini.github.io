@@ -28,6 +28,14 @@ const projects = [
     href: 'https://github.com/ppguidotti/smart-tender-assistant',
   },
   {
+    path: 'agenticos/',
+    flag: '--startup',
+    description:
+      'Red Team / Blue Team multi-agent audit that shows why AI shopping agents skip a fashion product, and compiles the fixes into JSON-LD and llms.txt. Built in the Lean Startup Lab of the Technology Entrepreneurship exam.',
+    tags: ['genai', 'multi-agent', 'gemini', 'entrepreneurship'],
+    href: 'https://agenticos-mvp.netlify.app',
+  },
+  {
     path: 'home-lab/',
     flag: '--infra',
     description:
