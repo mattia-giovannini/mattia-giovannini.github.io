@@ -48,9 +48,10 @@ const projects = [
 const timeline = [
   {
     tag: '[NOW]',
-    title: 'MSc in Artificial Intelligence — Admitted',
-    place: 'University of Bologna',
-    detail: 'Admitted to the two-year Master’s programme, starting A.Y. 2026/2027.',
+    title: 'MSc in Computer Engineering — Double Degree',
+    place: 'University of Bologna & Université Côte d’Azur (Polytech Nice Sophia) · 2026–2028',
+    detail:
+      'Two-year double-degree programme with the MSc in Ubiquitous Systems and Networks at Université Côte d’Azur, started A.Y. 2026/2027.',
   },
   {
     tag: '[GRAD]',
@@ -137,7 +138,7 @@ function App() {
                   <span className="text-[var(--amber)]">#</span> Building practical AI &amp; software systems, with research-grade care.
                 </h1>
                 <p className="mt-4 max-w-xl border-l-2 border-[var(--amber)] pl-4 text-base leading-7 text-[var(--sub)]">
-                  Computer Engineering graduate from the University of Bologna, admitted to the MSc in Artificial Intelligence at the same university. I work on applied machine learning, GenAI prototypes and self-hosted systems that turn ideas into usable tools.
+                  Computer Engineering graduate from the University of Bologna, now enrolled in a double-degree MSc in Computer Engineering (UniBo) and Ubiquitous Systems and Networks (Université Côte d’Azur, Polytech Nice Sophia). I work on applied machine learning, GenAI prototypes and self-hosted systems that turn ideas into usable tools.
                 </p>
               </div>
 
@@ -164,7 +165,7 @@ function App() {
               <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-3 gap-y-2.5">
                 <StatusRow label="university" value="Alma Mater Studiorum · UniBo" />
                 <StatusRow label="degree" value="BSc Comp. Eng. (94/110)" />
-                <StatusRow label="next" value="MSc AI, 2026–2028" />
+                <StatusRow label="now" value="MSc Comp. Eng. × UbiNet, 2026–2028" />
                 <StatusRow label="location" value="Bologna, Italy" />
                 <StatusRow label="focus" value="AI/ML, web, infra" />
               </dl>
