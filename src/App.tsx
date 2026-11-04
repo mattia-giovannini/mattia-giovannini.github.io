@@ -36,6 +36,13 @@ const projects = [
     href: 'https://agenticos-mvp.netlify.app',
   },
   {
+    path: 'network-resilience/',
+    flag: '--proposal',
+    description:
+      'Proposal comparing SDN link-failure recovery strategies — shared backup paths (SBPP), Fast Reroute and global MILP recomputation — on capacity overhead, restoration rate and reaction time. For the Discrete and Network Optimization Problems M exam.',
+    tags: ['milp', 'sdn', 'networking', 'optimization'],
+  },
+  {
     path: 'home-lab/',
     flag: '--infra',
     description:
