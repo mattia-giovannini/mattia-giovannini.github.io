@@ -43,6 +43,13 @@ const projects = [
     tags: ['milp', 'sdn', 'networking', 'optimization'],
   },
   {
+    path: 'k8s-smart-placement/',
+    flag: '--projectwork',
+    description:
+      'Custom Kubernetes scheduler that places each pod on the lowest-latency node with enough free resources, measuring node latency live and explaining every decision through events. Now evolving towards skill placement and replacement on mobile humanoid nodes. Project work for Enterprise Platforms and DevOps M.',
+    tags: ['kubernetes', 'python', 'scheduling', 'devops'],
+  },
+  {
     path: 'home-lab/',
     flag: '--infra',
     description:
