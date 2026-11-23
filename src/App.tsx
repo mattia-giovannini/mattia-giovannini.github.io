@@ -37,10 +37,11 @@ const projects = [
   },
   {
     path: 'network-resilience/',
-    flag: '--proposal',
+    flag: '--in-progress',
     description:
-      'Proposal comparing SDN link-failure recovery strategies — shared backup paths (SBPP), Fast Reroute and global MILP recomputation — on capacity overhead, restoration rate and reaction time. For the Discrete and Network Optimization Problems M exam.',
-    tags: ['milp', 'sdn', 'networking', 'optimization'],
+      'Benchmark comparing SDN link-failure recovery strategies — shared backup paths (SBPP), Fast Reroute and global MILP recomputation — on capacity overhead, restoration rate, reaction time and path stretch. Proposal approved; now implementing the three strategies behind one shared interface in Python. For the Discrete and Network Optimization Problems M exam.',
+    tags: ['milp', 'sdn', 'networking', 'python'],
+    href: 'https://github.com/frigori/net-restoration-bench',
   },
   {
     path: 'k8s-smart-placement/',
