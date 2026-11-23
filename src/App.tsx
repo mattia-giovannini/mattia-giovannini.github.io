@@ -107,7 +107,7 @@ const skillGroups = [
 const languages = [
   { code: 'IT', name: 'Italian', level: 'native', detail: null },
   { code: 'EN', name: 'English', level: 'C1', detail: 'Duolingo 130/160 · CLA C1, UniBo · Cambridge FCE B2 (178/190)' },
-  { code: 'FR', name: 'French', level: 'B1/B2', detail: 'CLA B1, UniBo · B2/C1 coursework at Université de Tours' },
+  { code: 'FR', name: 'French', level: 'C1', detail: 'CLA C1, UniBo · B2/C1 coursework at Université de Tours' },
 ]
 
 const contactLinks = [
